@@ -10,7 +10,7 @@ const[search, setSearch]=useState("Bangalore")
 
 useEffect(()=>{
     const fetchApi=async ()=>{
-        const url=`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=40dd29b9b1bd18b53c8ce8e665c53700`;
+        const url=`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=40dd29b9b1bd18b53c8ce8e665c53700`;
         const response = await fetch(url);
         const resjson=await response.json();
         setCity(resjson.main);
