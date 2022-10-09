@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../WeatherApp/Style.css';
+import '../Weather App/Style.css';
 
 
 
