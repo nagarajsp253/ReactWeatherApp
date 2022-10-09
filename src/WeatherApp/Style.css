@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     background: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100vw;
+     flex-wrap: wrap;
+  }
+  
+.box{
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     height: 70vh;
+     width: 25vw;
+     border-radius: .5rem;
+     background:paleturquoise;
+     box-shadow: 0 0.2rem 3rem black;
+     position: relative;
+     overflow: hidden;
+     transform: translate3d(0,0,0);
+  }
+
+  .inputdata{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+  
+  .inputdata input{
+    width: 60%;
+    height: 40px;
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    font-weight: bold;
+    color: purple;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+.info-div{
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 20px;
+    
+  }
+  
+  .info-div .location, .temp, .temp-max{
+     padding-top: 10px;
+  }
+
+  h1{
+    color: peru;
+  }
+
+  h2{
+    color: black;
+    text-transform: capitalize;
+  }
+
+  h3{
+    font-size: 17px;
+    color: royalblue
+  }
+  
+  p{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.wave1{
+  background-color: palevioletred;
+  width: 100%;
+  height: 5px;
+  border-radius: 100px 100px 0 0;
+  margin-top: 40px;
+}
+
+.wave2{
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 5px;
+  border-radius: 100px 100px 0 0;
+  margin-top: 2px;
+}
+
+.wave3{
+  background-color: peru;
+  width: 100%;
+  height: 5px;
+  border-radius: 100px 100px 0 0;
+  margin-top: 2px;
+}
+  
+  
